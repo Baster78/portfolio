@@ -1,17 +1,17 @@
+// import libs
+
+@import 'libs/bootstrap-reboot.min';
+
 // import vars
 
 @import 'vars/mixins';
 @import 'vars/vars';
 
-// import libs
-
-@import 'libs/bootstrap-reboot.min';
-
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 // Import Blocks
