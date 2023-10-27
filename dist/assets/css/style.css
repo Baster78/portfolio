@@ -1,9 +1,13 @@
 .grid-container {
+    width: 600px;
+    height: 600px;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-auto-rows: 200px;
 }
 
 .grid-elem {
-    height: 50px;
     background-color: rgb(1, 1, 96);
     color: #fff;
     line-height: 50px;

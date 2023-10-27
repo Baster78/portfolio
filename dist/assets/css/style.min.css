@@ -2,18 +2,16 @@
   width: 600px;
   height: 600px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 240px);
+  grid-template-rows: repeat(4, 260px);
+  grid-auto-rows: 200px;
+  gap: 60px;
 }
 
-.grid-elem {
-  background-color: rgb(1, 1, 96);
-  color: #fff;
-  line-height: 50px;
-  text-align: center;
-  font-size: 26px;
-  border: 1px solid #000;
-  border-radius: 4px;
+.grid-elem p {
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 * {
