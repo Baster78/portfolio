@@ -1,5 +1,20 @@
-body {
-    background-color: black;
-    font-size: 21px;
-    color: white;
+.grid-container {
+    display: grid;
+}
+
+.grid-elem {
+    height: 50px;
+    background-color: rgb(1, 1, 96);
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-size: 26px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }

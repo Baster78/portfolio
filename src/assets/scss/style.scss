@@ -1,5 +1,7 @@
-body {
-    background-color: black;
-    font-size: 21px;
-    color: white;
+@import 'blocks/grid';
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }

@@ -1,0 +1,17 @@
+.grid-container {
+	width: 600px;
+	height: 600px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-elem {
+	background-color: rgba(1, 1, 96, $alpha: 1);
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	font-size: 26px;
+	border: 1px solid #000;
+	border-radius: 4px;
+}
