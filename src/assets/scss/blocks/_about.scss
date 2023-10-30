@@ -1,0 +1,76 @@
+.aboutme {
+	padding: 120px 0;
+
+	&__wrapper {
+		display: flex;
+	}
+
+	&__content {
+		padding-left: 70px;
+	}
+}
+
+.content {
+	&__subtitle {
+		position: relative;
+		padding-left: 13px;
+		font-weight: bold;
+		margin-bottom: 6px;
+		z-index: 2;
+
+		@include before_circle;
+	}
+
+	&__title {
+		font-weight: bold;
+		margin-bottom: 4px;
+	}
+
+	&__line {
+		margin-bottom: 20px;
+
+		width: 60px;
+		height: 3px;
+		background-color: $main-color;
+	}
+
+	&__descr {
+		font-weight: 500;
+
+		margin-bottom: 40px;
+	}
+
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.item {
+	&__card {
+		width: 260px;
+		display: flex;
+		margin-bottom: 20px;
+	}
+}
+
+.card {
+	&__logo {
+		position: relative;
+		margin-right: 20px;
+
+		@include before_circle2;
+	}
+	&__title {
+		font-weight: bold;
+
+		margin-bottom: 6px;
+	}
+
+	&__descr {
+		font-size: 12px;
+		font-weight: 500;
+	}
+}
