@@ -4,8 +4,8 @@
 
 // import vars
 
-@import 'vars/mixins';
 @import 'vars/vars';
+@import 'vars/mixins';
 
 * {
 	box-sizing: border-box;
@@ -14,4 +14,15 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
 // Import Blocks
+
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/btn';
+@import 'blocks/sidepanel';
+@import 'blocks/menu';
