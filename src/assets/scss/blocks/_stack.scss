@@ -1,0 +1,52 @@
+.stack {
+	padding-top: 120px;
+
+	text-align: center;
+
+	&__title {
+		position: relative;
+		@include before_circle;
+
+		&:before {
+			top: -6px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+
+	&__column {
+		display: grid;
+		margin-top: 60px;
+
+		grid-template-columns: repeat(4, 270px);
+		grid-template-rows: repeat(2, 270px);
+		grid-gap: 13px;
+	}
+
+	&__item {
+		padding: 30px;
+		text-align: left;
+
+		border: 1px solid #000;
+
+		&-logo {
+			margin-bottom: 20px;
+		}
+
+		&-title {
+			margin-bottom: 15px;
+
+			color: #000;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: normal;
+		}
+
+		&-description {
+			color: #000;
+			font-size: 12px;
+			font-weight: 500;
+			line-height: normal;
+		}
+	}
+}

@@ -1,0 +1,49 @@
+.progress {
+	padding-top: 120px;
+
+	&__column {
+		display: grid;
+		grid-template-columns: repeat(3, 350px);
+		grid-template-rows: repeat(2, 70px);
+		column-gap: 45px;
+		row-gap: 30px;
+	}
+	&__item {
+		&_top {
+			display: flex;
+			justify-content: space-between;
+
+			&-title {
+				position: relative;
+				padding: 1px 0 0 12px;
+				color: #000;
+				font-size: 14px;
+				font-weight: 700;
+				line-height: normal;
+
+				@include before_circle;
+			}
+			&-percent {
+				color: #000;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: normal;
+			}
+		}
+	}
+
+	&__bar {
+		width: 350px;
+		height: 14px;
+		background-color: #e8e4de;
+		border-radius: 4px;
+
+		span {
+			display: block;
+			height: 100%;
+			margin-top: 20px;
+			background-color: $main-color;
+			border-radius: 4px;
+		}
+	}
+}

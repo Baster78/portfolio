@@ -1,3 +1,4 @@
 {
-	"prettier.ignorePath": "C:/Users/User/Desktop/Projects/Portfolio/src/layouts/.prettierignore"
+	"prettier.ignorePath": "C:/Users/User/Desktop/Projects/Portfolio/src/layouts/.prettierignore",
+	"editor.fontSize": 15
 }
